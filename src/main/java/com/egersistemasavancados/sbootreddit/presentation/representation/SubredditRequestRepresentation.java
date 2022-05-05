@@ -1,0 +1,19 @@
+package com.egersistemasavancados.sbootreddit.presentation.representation;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class SubredditRequestRepresentation implements Serializable {
+
+    private String name;
+    private String description;
+    private Integer numberOfPosts;
+}
