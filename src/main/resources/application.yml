@@ -10,3 +10,15 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+  mail:
+    host: smtp.mailtrap.io
+    port: 25
+    username: 7c0cfea9379a69
+    password: 2de9091ff973b2
+    protocol: smtp
+
+secret:
+  app:
+    jwtSecret: "7f-j&CKk=coNzZc0y7_4obMP?#TfcYq%fcD0mDpenW2nc!lfGoZ|d?f&RNbDHUX6"
+    expiration: 1

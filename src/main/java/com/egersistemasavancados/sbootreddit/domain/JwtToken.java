@@ -8,12 +8,10 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Builder
-public class NotificationEmail implements Serializable {
+public class JwtToken implements Serializable {
 
-    private String subject;
-    private String recipient;
-    private String body;
+    private String token;
 }
